@@ -1,0 +1,101 @@
+h1{
+
+	text-align: center;
+
+	color: #35d10a;
+
+}
+
+a {
+    color: #89a1d6;
+}
+
+
+
+#outer_container{
+
+
+	border: 2px solid grey;
+
+	text-align: center;
+
+	margin: auto 12cm;
+
+	border-radius: 15px;
+
+	background-color: #0a4882;
+
+	box-shadow:10px 10px 16px rgba(0,0,0,0.7); 
+
+
+
+}
+
+
+
+#form{
+    color: #c60000;
+
+	padding-top: 2cm;
+
+	padding-bottom: 2cm;
+
+}
+
+
+
+input{
+
+	height: 40px;
+
+}
+
+
+
+label{
+     color: #ffffff;
+
+	display: inline-block;
+
+	width: 140px;
+
+	text-align: left;
+
+}
+
+
+
+.submit{
+
+	width: 4cm;
+
+	position: relative;
+
+	top: 50px;
+
+	left: 2cm;
+
+}
+
+
+
+button{
+
+	color: red;
+
+}
+
+
+
+
+
+#back-page{
+
+	padding-top: 2cm;
+
+	text-align: center;
+
+	font-size: 35px;
+
+}
+
