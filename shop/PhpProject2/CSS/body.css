@@ -1,0 +1,303 @@
+@charset "UTF-8";
+
+/*
+ CSS created with CSE HTML Validator
+*/
+
+.sidebar1{float:left;
+	margin-left: 2%;
+        width:18%;
+	padding: 0 20px 0 10px;
+        box-shadow: inset 0 0 10px rgba(140,140,140,.5);
+}
+
+#hide, #hide2, #hide3, #hide4 {
+    display:none;
+    
+}
+
+
+
+@keyframes shake {
+        from
+            {
+                
+                transform:rotate(0deg);
+
+            }
+        25%
+            {
+               transform:rotate(-5deg);
+                
+            }
+        50%
+            {
+                transform:rotate(0deg);
+            }
+        75% 
+            {
+                transform:rotate(5deg);
+            }
+        to 
+            {
+                transform:rotate(0deg);
+            }
+}
+
+@-o-keyframes shake {
+        from
+            {
+                
+                -o-transform:rotate(0deg);
+
+            }
+        25%
+            {
+               -o-transform:rotate(-5deg);
+                
+            }
+        50%
+            {
+                -o-transform:rotate(0deg);
+            }
+        75% 
+            {
+                -o-transform:rotate(5deg);
+            }
+        to 
+            {
+                -o-transform:rotate(0deg);
+            }
+}
+
+@-moz-keyframes shake {
+        from
+            {
+                
+                -moz-transform:rotate(0deg);
+
+            }
+        25%
+            {
+               -moz-transform:rotate(-5deg);
+                
+            }
+        50%
+            {
+                -moz-transform:rotate(0deg);
+            }
+        75% 
+            {
+                -moz-transform:rotate(5deg);
+            }
+        to 
+            {
+               -moz-transform:rotate(0deg);
+            }
+}
+
+@-webkit-keyframes shake {
+        from
+            {
+                
+                -webkit-transform:rotate(0deg);
+
+            }
+        25%
+            {
+               -webkit-transform:rotate(-5deg);
+                
+            }
+        50%
+            {
+                -webkit-transform:rotate(0deg);
+            }
+        75% 
+            {
+                -webkit-transform:rotate(5deg);
+            }
+        to 
+            {
+                -webkit-transform:rotate(0deg);
+            }
+}
+
+ul.Wanted {
+    list-style-type: none;
+    margin-left: 10%;
+  
+}
+ul.Wanted ul{
+    list-style-type: none;
+    
+}
+
+ul.Wanted li {
+    margin-bottom: 2%;
+    
+}
+ul.Wanted li:hover {
+    animation-name: shake;
+    animation-duration: 0.12s;
+    animation-iteration-count: 6;
+    animation-timing-function: ease;
+}
+
+ul.Wanted ul li:hover {
+    animation-delay: 3000s;
+}
+
+ul.Wanted li:last-of-type {
+    margin-bottom: 10%;
+}
+
+ul.Wanted li a {
+    text-decoration: none;
+    text-shadow: -1px -1px 1px #aaa,
+                 0px 4px 1px rgba(0,0,0,0.5),
+                 4px 4px 5px rgba(0,0,0,0.7),
+                 0px 0px 7px rgba(0,0,0,0.4);
+    font-size: 1.5em;
+    
+}
+
+.main{float:left;
+	width:70%;
+	padding: 0 20px 0 20px;
+	border-left: dashed 1px rgb(153,153,153);
+    
+
+}
+
+.title {
+    text-shadow: -1px -1px 1px #aaa,
+                 0px 4px 1px rgba(0,0,0,0.5),
+                 4px 4px 5px rgba(0,0,0,0.7),
+                 0px 0px 7px rgba(0,0,0,0.4);
+    font-size: 2.5em;
+    margin-left: 1em;
+    
+}
+
+.title_sidebar{
+    text-shadow: -1px -1px 1px #aaa,
+                 0px 4px 1px rgba(0,0,0,0.5),
+                 4px 4px 5px rgba(0,0,0,0.7),
+                 0px 0px 7px rgba(0,0,0,0.4);
+    text-align: center;
+    font-size: 1.69em;
+    margin-top: 0.55em;
+    margin-bottom: 0.65em;
+    
+    
+}
+
+.main .news{
+	float: left;
+	margin-right:10px;
+    -webkit-transition-property:all;
+    -moz-transition-property:all;
+    -o-transition-property:all;
+    transition-property:all;
+    -webkit-transition-duration:.5s;
+    -moz-transition-duration:.5s;
+    -o-transition-duration:.5s;
+    transition-duration:.5s;
+}
+
+.main .news a img{
+	width: 300px;
+	height: 200px;
+
+    
+   
+    box-shadow: 0px 0px 5px 2px #3FBCCB;
+
+}
+
+
+.main .news p,  .slider .bxslider .news{height: 24px;
+    margin-bottom: -5px;
+    background-color: #041E37;
+    color: #ffffff;
+    padding: 2px;
+    padding-left: 5px;
+    margin-bottom: 10px;
+    text-align: left;
+    word-break: break-all;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    position: relative;
+    width: 293px;
+}
+.main .news:hover {
+	
+	transform: scale(1.07,1.05);
+
+}
+
+
+
+footer {
+	margin-top: 15px;
+	font-size: .8em;
+	height:20px;
+	padding: 10px 10px 30px 10px;
+	padding-left: 10%;
+	background-color: black;
+	color: rgb(204,204,204);
+	clear:both;
+}
+footer a {
+	color: white;	
+}
+
+footer p {
+	float:left;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 0.5%;
+	font-size: 1.5em;
+
+}
+
+.subs {
+	float:left;
+	width: 35%;
+	margin-top: 10px
+	
+}
+
+.footer-nav ul {
+    list-style: none;
+    position: relative;
+    display: inline-table;
+   	right: -5%;
+    margin-right: 12px;
+    margin-top: 5px;
+    font-size: 1.4em;
+}
+
+.footer-nav ul li {
+    float: left;
+    border-right: 1px dashed white;
+    padding-right:5px;
+}
+
+.footer-nav ul li:last-of-type {
+	border:none;
+
+}
+
+.footer-nav ul li a {
+    display: block; 
+    padding-left: 15px; 
+    color: #757575; 
+    text-decoration: none;
+    }
+.footer-nav ul:after {
+        content: ""; 
+        clear: both; 
+        display: block;
+}
